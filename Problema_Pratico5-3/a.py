@@ -17,7 +17,6 @@ def aritmetica(lista_arit):
 
 lista = []
 loop = 1
-posicao = 0
 while loop == 1:
     valor = eval(input("Coloque um numero na posicao {}: ".format((len(lista) + 1))))
     lista.append(valor)
